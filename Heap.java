@@ -45,7 +45,6 @@ if (largestIndex!=index)
 int temp= al.get(largestIndex);
 al.set(largestIndex, al.get(index));
 al.set(index, temp);
-//swap(al.get(largestIndex),al.get(index));
 heapify(al,largestIndex);
 }
 
@@ -71,11 +70,6 @@ void delete(ArrayList<Integer>al, int number) {
 	//heapify 
 	for (int j=size/2 -1 ; j >=0; j--)
 		heapify(al,j);
-}
-void swap (int a, int b){
-int temp= a;
-a=b;
-b=temp;
 }
 
 void printHeap(ArrayList <Integer> al)
