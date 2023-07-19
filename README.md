@@ -6,4 +6,8 @@ Heap: Basic Implementation of heap including heapify, insertion, deletion and pr
 
 LeetCodeProblemSameBinTree: Solved Leet code challange to check whether the given binary trees are identical or not.
 
-KthLargestElement: Find out the kth largest element from the given input by using Priority Queue
+KthLargestElement: Find out the kth largest element from the given input by using Priority Queue.
+
+TrieImplementation: Implementation of Trie data structure including insert, search and search with prefix.
+
+
